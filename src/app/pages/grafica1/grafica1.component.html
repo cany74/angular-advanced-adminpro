@@ -1,1 +1,20 @@
-<p>grafica1 works!</p>
+<div class="row">
+  <div class="col-6">
+    <app-dona title="Emmita Vallejo de Mello"></app-dona>
+    <!-- <app-dona2></app-dona2> -->
+  </div>
+  <div class="col-6">
+    <app-dona
+      [data1]="data1"
+      title="datos cambiados"
+    ></app-dona>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <app-dona [labels]="labels1"></app-dona>
+  </div>
+  <div class="col-6">
+    <app-dona title="Rocio"></app-dona>
+  </div>
+</div>
